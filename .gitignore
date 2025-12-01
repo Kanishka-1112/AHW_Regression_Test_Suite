@@ -1,0 +1,18 @@
+# Ignore Eclipse & IntelliJ files
+.metadata/
+.settings/
+.idea/
+ 
+# Ignore previous git backup
+.git_backup/
+ 
+# Ignore build and output folders
+target/
+test-output/
+ 
+# Ignore OS files
+NUL
+.DS_Store
+ 
+# Ignore logs
+*.log

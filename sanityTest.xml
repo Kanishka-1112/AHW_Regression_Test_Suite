@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+<suite name="RegressionSuite" parallel="false" >
+
+	<!--<parameter name="ExcelSheetName" value="Growth opportunities" /> -->
+	
+	<listeners>
+		<listener
+			class-name="com.nielsen.commonMethods.CustomListerner" ></listener>
+	</listeners>
+	<test name="login">
+		
+		<classes>
+		 
+		<!-- <class name="com.nielsen.regressionTestcase.AutomationRegressionSanity" />  -->
+	
+	
+			 
+			 <class name="com.nielsen.regressionTestcase.BrowserTest" /> 
+			 <!-- <class name="com.nielsen.regressionTestcase.Facts" /> -->
+		</classes>
+		
+		
+	</test>
+	
+	
+	
+
+</suite>
+
