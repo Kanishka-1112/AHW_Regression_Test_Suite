@@ -1,18 +1,36 @@
-# Ignore Eclipse & IntelliJ files
-.metadata/
+# Maven
+/target/
+/*.iml
+*.class
+ 
+# Eclipse
+.project
+.classpath
 .settings/
+.metadata/
+.recommenders/
+bin/
+ 
+# IntelliJ
 .idea/
+*.iws
+*.iml
+out/
  
-# Ignore previous git backup
-.git_backup/
- 
-# Ignore build and output folders
-target/
-test-output/
- 
-# Ignore OS files
-NUL
-.DS_Store
- 
-# Ignore logs
+# Logs, OS files, temp
 *.log
+.DS_Store
+Thumbs.db
+NUL
+ 
+# Test / output
+test-output/
+reports/
+ 
+# Git backup / local config
+.git_backup/
+.env
+*.keystore
+ 
+# Others
+node_modules/
